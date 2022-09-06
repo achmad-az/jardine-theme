@@ -1,0 +1,577 @@
+.home-intro-widget {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .home-intro-widget h1.title-home-intro {
+    margin: 0;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  
+  .home-intro-widget .link-wrapper a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  
+  .home-intro-widget .link-wrapper a:after {
+    content: "»";
+    margin-left: 5px;
+  }
+  
+  .home-intro-content {
+    h2:after{
+      content:attr(data-text);
+      color:#AF0013;
+      transform:translateX(-100%);
+      position:absolute;
+    }
+  }
+
+  h2 {
+    &.title-intro {
+      font-size: 56px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 60px;
+      position: relative;
+      display: table;
+      }
+
+    &.title-partner {
+
+      span.smile:after {
+        content: '';
+        position: absolute;
+        right: 90px;
+        bottom: 0;
+        height: 10px;
+        width: 100px;
+        background-image: url("../images/jrg_brush.png");
+      }
+
+      font-size: 56px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 60px;
+      position: relative;
+      display: table;
+      width: 33%;
+      }
+  }
+
+  .award-logo-content {
+    position: relative;
+    min-height: 490px;
+    border-bottom: solid #AF0013;
+    padding: 30px;
+    .award-logo {
+
+      img {
+        max-height: 70px;
+      }
+
+    }
+
+    h2.award {
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 36px;
+    }
+
+    .award-desc {
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 32px;
+    }
+
+    span.award-location {
+      position: absolute;
+      bottom: 30px;
+      color: #AF0013;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 19px;
+    }
+  }
+
+  .award-link-wrapper {
+    display: table;
+    border: solid 3px #AF0013;
+    border-radius: 50px;
+    color: #AF0013;
+    text-align: center;
+    padding: 5px 30px;
+    margin-top: 50px;
+
+    a {
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 25px;
+      text-align: center;
+      color: #AF0013;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    &:hover {
+      background-color: #AF0013;
+
+    }
+  }
+
+
+  span.smile:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100px;
+    background-image: url("../images/jrg_brush.png");
+  }
+  
+  .home-intro-content {
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    p {
+      &.subtitle {
+        text-align: left;
+      }
+    }
+
+    h1 {
+      &.title-home-intro {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+    }
+
+    .description {
+      margin-right: 60px;
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .brand-logo-wrapper {
+    position: relative;
+
+    .brand-image {
+      position: relative;
+      height: 0;
+      padding-top: 135%;
+      width: 360px;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+
+    .brand-logo {
+      width: 120px;
+      height: 120px;
+      padding: 30px 25px;
+      background-color: #fff;
+      border-radius: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+    }
+
+    .button {
+      border: solid 5px;
+      border-radius: 50px;
+      padding-top: 7px;
+      font-size: 21px;
+      line-height: 25px;
+      text-align: center;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 120px;
+      height: 47px;
+      margin-bottom: 40px;
+
+      &:hover {
+        background-color: #AF0013;
+        border-color: #AF0013;
+      }
+    }
+  }
+
+  .whyus-wrapper {
+    background-color: #AF0013;
+    padding: 50px 0 60px;
+    color: #fff;
+  }
+
+  .whyus-item {
+    text-align: center;
+    
+    span {
+      display: block;
+    }
+
+    .number {
+      font-size: 56px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 64px;
+    }
+
+    .title {
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+
+    .desc {
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 32px;
+      padding: 0 70px;
+    }
+
+  }
+
+  .owl-dots {
+    text-align: center;
+    margin-top: 50px;
+  } 
+
+  .owl-dot {
+    display: inline-block;
+  }
+
+  .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #ffffff;
+    opacity: 0.5;
+    display: block;
+    // -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    opacity: 1;
+}
+
+.item-image-blog {
+
+  .blog-image {
+    position: relative;
+    height: 0;
+    padding-top: 65%;
+    width: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+}
+
+  .item-text-blog {
+
+    padding-left: 120px;
+    padding-right: 200px;
+  
+      h2 {
+        margin-top: 20%;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 44px; 
+        margin-bottom: 60px;   
+    }
+
+    a {
+      border: solid 3px #AF0013;
+      border-radius: 50px;
+      color: #AF0013;
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 25px;
+      text-align: center;
+      padding: 15px 25px;
+    }
+
+    a:hover {
+      text-decoration: none;
+      background-color: #AF0013;
+      color: #ffffff;
+    }
+  }
+
+.partner-logo-wrapp {
+  padding: 80px 0;
+}
+  .partner-logo-content {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    .brand-logo {
+      width: 130px;
+      height: 130px;
+      padding: 30px 25px;
+      background-color: #fff;
+      border-radius: 100px;
+      margin: auto;
+    }
+  }
+
+  .link-wrapper {
+
+    &:hover {
+      background-color: #ffffff;
+    }
+    display: table;
+    border: solid 5px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+    padding: 5px 30px;
+
+    a {
+
+      &:hover {
+        text-decoration: none;
+        color: #AF0013;
+      }
+
+      font-size: 21px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    }
+  
+  .home-intro-widget, .accomodation-wrapper, .homepage-restaurant-layout {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .home-intro-widget {
+    padding-top: 40px;
+  }
+
+  .homepage-restaurant-layout {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .homepage-restaurant-layout h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  .homepage-restaurant-layout .tab-item {
+    display: none;
+  }
+  
+  .homepage-restaurant-layout .tab-item.active {
+    display: block;
+  }
+  
+  .homepage-restaurant-layout .tab-item .tab-wrapper {
+    position: relative;
+    padding-top: 75%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .homepage-restaurant-layout .tab-item .tab-wrapper .tab-content {
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 30px;
+  }
+  
+  .homepage-restaurant-layout .tab-item .tab-wrapper .tab-content h3 {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-restaurant-layout .tab-item .tab-wrapper .tab-content a.button-more {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .homepage-restaurant-layout .navigation-tab {
+    position: relative;
+    padding-top: 30px;
+    margin-top: 40px;
+  }
+  
+  .homepage-restaurant-layout .navigation-tab:after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    left: 0px;
+    top: 0px;
+    height: 1px;
+    background-color: #FF5A5F;
+  }
+  
+  .homepage-restaurant-layout .navigation-tab ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  .homepage-restaurant-layout .navigation-tab ul>li>a {
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    font-size: 20px;
+    font-family: "HelveticaNeueLT Pro";
+  }
+  
+  .homepage-restaurant-layout .navigation-tab ul>li>a.active, .homepage-restaurant-layout .navigation-tab ul>li>a:hover, .homepage-restaurant-layout .navigation-tab ul>li>a:active, .homepage-restaurant-layout .navigation-tab ul>li>a:visited, .homepage-restaurant-layout .navigation-tab ul>li>a:focus {
+    color: #464646;
+    opacity: 1;
+  }
+  
+  .homepage-restaurant-layout .navigation-tab ul>li>a.active:after {
+    content: "\e876";
+    font-family: "Linearicons-Free";
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    font-size: 13px;
+  }
+  .side-content {
+    padding-right: 50px;
+  }
+
+  p {
+    &.subtitle {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width:600px){
+    h2 {
+      &.title-intro {
+        font-size: 34px;
+        line-height:39px;
+      }
+    }
+
+    .wp-block-spacer {
+      height: 50px !important;
+    }
+
+    .brand-logo-wrapper {
+      .brand-logo {
+        position: relative;
+        width: 33%;
+        display: inline-block;
+        float: left;
+      }
+    }
+
+    .home-intro-content {
+      padding-left: 30px;
+      padding-bottom: 30px;
+
+      h2 {
+        &#jardine-block-experience {
+          span.smile:after {
+            right: 150px;
+          }
+        }
+      }
+    }
+
+    .item-text-blog {
+      padding: 30px;
+      h2 {
+        font-size: 26px;
+        line-height: 28px;
+        margin-top: 0;
+      }
+    }
+
+    .blog-loop-wrapper {
+      margin-bottom: 30px !important;
+      .row{
+          display: flex;
+          flex-flow: column-reverse;
+        }
+    }
+
+    .item-image-blog {
+      padding: 30px;
+    }
+
+    h2.title-partner {
+      font-size: 34px;
+      line-height: 36px;
+      width: 100%;
+      margin-left: 30px;
+
+      span.smile:after {
+        right: 180px;
+      }
+    }
+
+    .partner-logo-wrapp {
+      padding: 40px 0;
+    }
+
+    .partner-logo-content {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .brand-logo {
+        width: 88px;
+        height: 88px;
+        padding: 18px;
+        margin-bottom:40px;
+      }
+    }
+
+    .award-logo-content {
+      min-height: auto;
+      margin: 0 30px;
+      h2.award {
+        font-size: 26px;
+        line-height: 28px;
+      }
+      
+      span.award-location{
+        position: relative;
+        bottom: 0;
+      }
+    }
+
+    .award-link-wrapper {
+      margin-left: 30px;
+    }
+  }

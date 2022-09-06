@@ -1,0 +1,202 @@
+.blog-list-wrapper {
+    .post-title {
+        margin: 0;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(#000000, 0.1);
+    }
+
+    article {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(#000000, 0.1);
+    }
+
+    .post-thumbnail {
+        display: block;
+        position: relative;
+        border: 1px solid rgba(#000000, 0.1);
+
+        .post-date  {
+            position: absolute;
+            max-width: 100px;
+            text-align: center;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            background: #ffffff;
+            color: rgb(72, 72, 72);
+            font-size: 24px;
+        }
+    }
+}
+
+.single-post {
+    .jardine-container {
+      padding-top: 30px;
+    }
+  
+    .post-date {
+        position: absolute;
+        max-width: 100px;
+        text-align: center;
+        left: 0;
+        padding: 15px;
+        background: #ffffff;
+        color: rgb(72, 72, 72);
+        font-size: 24px;
+        
+        border: 1px solid rgba(#000000, 0.1);
+        border-bottom: none;
+        top: -132px;
+    }
+
+    .post-meta {
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+.blog, .single-post {
+    #secondary {
+        section {
+            padding-bottom: 30px;
+
+            .widget-title {
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 15px;
+                font-size: 18px;
+            }
+
+            &.widget_search {
+                .screen-reader-text {
+                    display: none;
+                }
+
+                .search-form {
+                    border: 1px solid rgba(#000000, 0.1);
+                    display: flex;
+                    align-items: center;
+                }
+
+                label {
+                    margin-bottom: 0px;
+                    width: 100%;
+
+                    .search-field {
+                        height: 100%;
+                        width: 100%;
+                        border: none;
+                        padding: 5px;
+                        outline: none;
+                        color: rgb(72, 72, 72);
+                        font-size: 15px;
+                    }
+                }
+
+                .search-submit {
+                    background: transparent;
+                    border: none;
+                    border-left: 1px solid rgba(#000000, 0.1);
+                    border-right: 1px solid rgba(#000000, 0.1);
+                    padding: 5px 7px;
+                    text-align: center;
+                }
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style-type: none;
+
+                    a {
+                        color: rgb(72, 72, 72);
+                    }
+                }
+            }
+        }
+
+        .tagcloud {
+            a {
+                font-size: 14px!important;
+                padding: 7px 9px;
+                border-radius: 4px;
+                border: 1px solid rgba(#000000, 0.1);
+                color: rgb(72, 72, 72);
+
+                &:hover {
+                    background-color: rgba(#000000, 0.1);
+                }
+            }
+        }
+    }
+}
+
+ol.comment-list {
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style-type: none;
+        padding-bottom: 15px;
+    }
+}
+
+#commentform {
+    label {
+        display: block;
+        width: 100%;
+    }
+
+    textarea {
+        @extend label;
+        border: 1px solid rgba(#000000, 0.1);
+    }
+
+    input[type="text"] {
+        @extend label;
+        border: 1px solid rgba(#000000, 0.1);
+    }
+
+    input[type="email"] {
+        @extend label;
+        border: 1px solid rgba(#000000, 0.1);
+    }
+
+    input[type="url"] {
+        @extend label;
+        border: 1px solid rgba(#000000, 0.1);
+    }
+
+    .comment-form-cookies-consent {
+        display: inline-block;
+
+        & > label {
+            display: inline;
+            margin-left: 5px;
+        }
+    }
+
+    .form-submit {
+        display: flex;
+        justify-content: flex-end;
+        input[name="submit"] {
+            background-color: #FF5A5F;
+            border: 3px solid #FF5A5F;
+            padding: 5px 15px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+}

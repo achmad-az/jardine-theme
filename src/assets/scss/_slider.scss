@@ -1,0 +1,89 @@
+.ize-image-slide-with-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .ize-image-slide-with-content h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  .ize-image-slide-with-content.content-right .wrapper-image .image-slider-item {
+    width: 100%;
+    padding-top: 70%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .ize-image-slide-with-content.content-right .wrapper-image {
+    padding-right: 0px;
+  }
+  
+  .ize-image-slide-with-content.content-bottom .wrapper-image .image-slider-item {
+    width: 100%;
+    padding-top: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .ize-image-slide-with-content .owl-carousel, .room-owl-slider {
+    position: relative;
+  }
+  
+  .ize-image-slide-with-content .owl-nav, .room-owl-slider .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translatey(-50%);
+    transform: translatey(-50%);
+  }
+  
+  .ize-image-slide-with-content .owl-nav .owl-prev, .ize-image-slide-with-content .owl-nav .owl-next, .room-owl-slider .owl-nav .owl-prev, .room-owl-slider .owl-nav .owl-next {
+    position: absolute;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 25px;
+    color: #fff;
+    padding-top: 2px;
+    top: 50%;
+    -webkit-transform: translatey(-50%);
+    transform: translatey(-50%);
+  }
+  
+  .ize-image-slide-with-content .owl-nav .owl-prev span, .ize-image-slide-with-content .owl-nav .owl-next span, .room-owl-slider .owl-nav .owl-prev span, .room-owl-slider .owl-nav .owl-next span {
+    text-shadow: -.2px -.2px 0 #fff, .2px -.2px 0 #fff, -.2px .2px 0 #fff, .2px .2px 0 #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .ize-image-slide-with-content .owl-nav .owl-prev, .room-owl-slider .owl-nav .owl-prev {
+    left: 0px;
+  }
+  
+  .ize-image-slide-with-content .owl-nav .owl-next, .room-owl-slider .owl-nav .owl-next {
+    right: 0px;
+  }
+  
+  .ize-image-slide-with-content .wrapper-content {
+    background-color: transparent;
+  }
+  
+  .ize-image-slide-with-content.content-bottom .wrapper-content {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .ize-image-slide-with-content.content-right .wrapper-content, .ize-image-slide-with-content.content-left .wrapper-content   {
+      background-color: #fff;
+  }
+  
+  .border-box {
+    border: solid 1px #95989a;
+  }

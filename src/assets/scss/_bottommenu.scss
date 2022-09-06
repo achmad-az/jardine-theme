@@ -1,0 +1,109 @@
+#bottomMenu {
+    padding-top: 10px;
+    height: 70px;
+  }
+  #bottomMenu form {
+    display: flex;
+    font-size: 12px;
+  }
+  
+  #bottomMenu .logo-menu-bottom{
+    position: relative;
+    max-width: 210px;
+    padding: 0;
+    padding-right: 25px;
+  }
+  #bottomMenu .availability{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .availability span.date {
+    color: #484848;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  #bottomMenu .availability span.date input{
+    position: absolute;
+    opacity: 0;
+    top: 15px;
+    left: 0px;
+    width: 100px;
+  }
+  
+  #bottomMenu.is-sticky .availability span.date input {
+    top: 10px;
+    width: 100px;
+  }
+  
+  #bottomMenu .availability span.date input:hover {
+    cursor: pointer;
+  }
+  #bottomMenu .availability span.date label{
+    cursor: pointer;
+  }
+  #bottomMenu .availability span.date span {
+    font-size: 22px;
+  }
+  #promoCode{
+    position: absolute;
+    left: 44%;
+    top: 76px;
+    background-color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #ebebeb;
+    display: none;
+  }
+  
+  .is-sticky #promoCode {
+    top: 10px;
+  }
+  // #primary-menu{
+  //   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  // }
+  #promoCode input[type="text"]{
+    border: none;
+    outline: none;
+  }
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #484848;
+    /*width: 110px;*/
+  }
+
+  .social-media ul {
+    padding-left: 0px;
+  }
+  
+  .social-media li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+  }
+  
+  .social-media li:last-child {
+    margin-right: 0px;
+  }
+  
+  #button-language::before {
+    content: "|";
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  
+  .social-media li a {
+    color: #484848;
+    font-size: 18px;
+  }
+  
+  #roi-auth * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }

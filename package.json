@@ -1,0 +1,36 @@
+{
+  "name": "themetesting",
+  "version": "1.0.0",
+  "description": "Wordpress theme with npm and gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "surya",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "hamburgers": "^1.1.3",
+    "webpack-stream": "^4.0.3",
+    "yargs": "^12.0.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "hamburgers": "^1.1.3",
+    "jquery": "^3.4.1",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.15.0"
+  }
+}

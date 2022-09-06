@@ -1,0 +1,98 @@
+/**
+* Custom CSS modal
+*/
+
+#add-custom-css{
+  background-color:#2B4B80;
+  border:0;
+  color:#FFF;
+  padding:10px 15px;
+  cursor:pointer;
+}
+
+.custom-modal-overlay{
+   width:100%;
+  height:100%;
+  position:fixed;
+  background:rgba(0,0,0,.7);
+  z-index:999999999999999999
+}
+
+.custom-modal{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:60%;
+}
+
+.custom-modal-head{
+  background-color:#2B4B80;
+  padding:20px;
+}
+
+.custom-modal-head .custom-modal-close,
+.custom-modal-head .custom-modal-minimize{
+  float:right;
+  color:#FFF;
+  text-decoration:none;
+}
+
+.custom-modal-head h2{
+  display:inline;
+  color:#FFF
+}
+
+.custom-modal-footer{
+  background-color:#e7e7e7;
+  padding:25px 20px
+}
+
+.custom-modal-footer a{
+  background-color:#2B4B80;
+  padding:10px 25px;
+  margin-right:15px;
+  text-decoration:none;
+  color:#FFF;
+  text-transform:uppercase;
+}
+
+.custom-modal-footer .custom-modal-close{
+  background-color:#999;
+  color:#FFF
+}
+
+.custom-modal-footer span{
+  color:#999
+}
+
+.custom-modal-minimized{
+  position:fixed;
+  bottom:0px;
+  background-color:#2B4B80;
+  right:10px;
+  width:250px;
+  z-index:999999999999999999;
+}
+
+.custom-modal-minimized .custom-modal-maximize{
+  display:block;
+  width:80%;
+  padding:3%;
+  float:left;
+}
+
+.custom-modal-minimized h2{
+  display:inline;
+  color:#FFF;
+  font-size:14px;
+}
+
+.custom-modal-minimized .custom-modal-close{
+  float:right;
+  color:#FFF;
+  text-decoration:none;
+  width:10%;
+  display:block;
+  margin-top:3%;
+}
